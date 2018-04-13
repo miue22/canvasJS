@@ -1,0 +1,54 @@
+/* layout */ 
+body{
+	margin-top : 100px;
+}
+
+.container{
+	margin:0 auto;
+}
+
+
+/* chart */
+.container #chartContainer{
+	height: 370px; 
+	max-width:970px;
+	margin:0 auto;
+}
+
+/* setting */
+.container .settingWrapper{
+    margin-bottom: 50px;
+}
+
+.container .settingWrapper .setting{ 
+	width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+.container .settingWrapper .dropdown-wrapper{}
+
+.container .settingWrapper .dropdown{
+    text-align: center;
+}
+
+/* content */
+
+.container .contentWrapper{
+	width: 80%;
+    margin: 30px auto 0 auto;
+} 
+
+.container .contentWrapper .data-list{
+	text-align:center;
+}
+.container .contentWrapper .data-list input{
+	text-align:center;
+}
+
+.container .contentWrapper .data-list .row{
+	margin-bottom: 15px; 
+}
+
+.container .contentWrapper .data-list .content-label{
+	font-size:1.4em;
+}
